@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>गणेश उत्सव समारोह - आमंत्रण</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600&family=Noto+Serif+Devanagari:wght@400;600;700&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Music Button -->
+    <button id="music-btn" class="music-btn" aria-label="Toggle Music">
+        <span id="music-icon">🔇</span>
+    </button>
+
+    <audio id="bgMusic" loop>
+        <source src="assets/ganesh-music.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Cover Page -->
+    <section id="cover-page" class="cover-page active">
+        <div class="particles" id="particles-cover"></div>
+        <div class="mandala-bg"></div>
+
+        <!-- Corner decorations -->
+        <div class="corner top-left"></div>
+        <div class="corner top-right"></div>
+        <div class="corner bottom-left"></div>
+        <div class="corner bottom-right"></div>
+
+        <!-- Hanging Bells -->
+        <div class="bells-container">
+            <div class="bell bell-left"></div>
+            <div class="bell bell-right"></div>
+        </div>
+
+        <div class="cover-content">
+            <div class="ganesha-container">
+                <div class="glow-ring"></div>
+                <img src="assets/ganesha.png" alt="Lord Ganesha" class="ganesha-img">
+            </div>
+
+            <div class="text-content">
+                <p class="shree-text">॥ श्री गणेशाय नमः ॥</p>
+                <h1 class="main-title">गणेश उत्सव<br>समारोह</h1>
+                <p class="subtitle">सादर आमंत्रण</p>
+            </div>
+
+            <button id="open-invitation" class="btn-primary">
+                <span>आमंत्रण खोलें</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </button>
+        </div>
+    </section>
+
+
+    <!-- Main Invitation Page -->
+    <section id="invitation-page" class="invitation-page">
+
+        <div class="side-decor left-decor"></div>
+        <div class="side-decor right-decor"></div>
+        <div class="particles" id="particles-invitation"></div>
+
+        <div class="invitation-card">
+
+            <div class="card-border"></div>
+            <div class="card-inner-border"></div>
+
+            <div class="card-corner top-left"></div>
+            <div class="card-corner top-right"></div>
+            <div class="card-corner bottom-left"></div>
+            <div class="card-corner bottom-right"></div>
+
+            <div class="card-content">
+
+                <div class="card-header reveal">
+                    <img src="assets/ganesha.png" alt="Lord Ganesha" class="ganesha-small">
+
+                    <p class="shloka">
+                        वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ।<br>
+                        निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥ 🙏
+                    </p>
+                </div>
+
+
+                <div class="schedule-header reveal">
+
+                    <h2>गणेश उत्सव समारोह की कार्यसूची</h2>
+
+                    <p class="bappa-morya">
+                        <h3>गणपति बाप्पा मोरया</h3> 🙏
+                    </p>
+
+                    <div class="divider">
+                        <svg viewBox="0 0 100 20">
+                            <path d="M0 10 L45 10 L50 5 L55 10 L100 10"
+                                stroke="var(--gold)"
+                                fill="none"
+                                stroke-width="2"/>
+                        </svg>
+                    </div>
+
+                </div>
+
+
+                <!-- ================= DAY 1 ================= -->
+
+                <div class="day-section reveal">
+
+                    <div class="day-badge">DAY - 1</div>
+
+                </div>
+
+
+                <div class="sthapan-box reveal">
+
+                    <div class="sthapan-content">
+
+                        <h3>गणेश मूर्ति स्थापना</h3>
+
+                        <p class="date">
+                            दिनांक: 14/09/2026
+                        </p>
+
+                        <p class="time">
+                            दोपहर 01:00 बजे से आरंभ
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- DAY 1 / DAY 2 SEPARATOR -->
+
+                <div class="section-separator reveal"
+                    style="width: 80%; max-width: 500px; margin: 28px auto 24px; display: flex; align-items: center; justify-content: center; gap: 12px;">
+
+                    <span style="height: 1.5px; flex: 1; background: #222;"></span>
+
+                    <span style="font-size: 18px; color: #222; line-height: 1;">
+                        ✦
+                    </span>
+
+                    <span style="height: 1.5px; flex: 1; background: #222;"></span>
+
+                </div>
+
+
+                <!-- ================= DAY 2 ================= -->
+
+                <div class="day-section reveal">
+
+                    <div class="day-badge">DAY :- 2</div>
+
+                    <div class="events-grid">
+
+                        <div class="event-card reveal">
+
+                            <div class="event-border"></div>
+
+                            <div class="event-badge">
+                                “आरती और थाल”
+                            </div>
+
+                            <div class="event-details">
+
+                                <div class="lotus-divider"></div>
+
+                                <p class="event-time">
+                                    संध्याकाल 6:00 बजे
+                                </p>
+
+                                <p class="event-date">
+                                    दिनांक: 15/09/2026
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="event-card reveal">
+
+                            <div class="event-border"></div>
+
+                            <div class="event-badge">
+                                कला एवं संस्कृति समारोह
+                            </div>
+
+                            <div class="event-details">
+
+                                <div class="lotus-divider"></div>
+
+                                <p class="event-time">
+                                    संध्याकाल 7:00 बजे
+                                </p>
+
+                                <p class="event-date">
+                                    दिनांक: 15/09/2026
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="event-card reveal">
+
+                            <div class="event-border"></div>
+
+                            <div class="event-badge">
+                                गरबा नृत्य
+                            </div>
+
+                            <div class="event-details">
+
+                                <div class="lotus-divider"></div>
+
+                                <p class="event-time">
+                                    संध्याकाल 7:40 बजे
+                                </p>
+
+                                <p class="event-date">
+                                    दिनांक: 15/09/2026
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="event-card centered-card reveal">
+
+                            <div class="event-border"></div>
+
+                            <div class="event-badge">
+                                महाप्रसाद
+                            </div>
+
+                            <div class="event-details">
+
+                                <div class="lotus-divider"></div>
+
+                                <p class="event-time">
+                                    संध्याकाल 8 बजे
+                                </p>
+
+                                <p class="event-date">
+                                    दिनांक: 15/09/2026
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- DAY 2 / DAY 3 SEPARATOR -->
+
+                <div class="section-separator reveal"
+                    style="width: 80%; max-width: 500px; margin: 28px auto 24px; display: flex; align-items: center; justify-content: center; gap: 12px;">
+
+                    <span style="height: 1.5px; flex: 1; background: #222;"></span>
+
+                    <span style="font-size: 18px; color: #222; line-height: 1;">
+                        ✦
+                    </span>
+
+                    <span style="height: 1.5px; flex: 1; background: #222;"></span>
+
+                </div>
+
+
+                <!-- ================= DAY 3 ================= -->
+
+                <div class="day-section reveal">
+
+                    <div class="day-badge">DAY - 3</div>
+
+                    <div class="events-grid">
+
+                        <div class="event-card centered-card reveal">
+
+                            <div class="event-border"></div>
+
+                            <div class="event-badge">
+                                बप्पा विसर्जन
+                            </div>
+
+                            <div class="event-details">
+
+                                <div class="lotus-divider"></div>
+
+                                <p class="event-time">
+                                    संध्याकाल: 5:00 बजे
+                                </p>
+
+                                <p class="event-date">
+                                    दिनांक: 16/09/2026
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="footer-msg reveal">
+
+                    <div class="msg-box">
+
+                        <p class="main-msg">
+                            | गणपती बाप्पा के चरणों में सादर निमंत्रण - आपका सम्मान, हमारी परंपरा |
+                        </p>
+
+                        <div class="divider small">
+
+                            <svg viewBox="0 0 100 20">
+                                <path d="M0 10 L45 10 L50 5 L55 10 L100 10"
+                                    stroke="var(--gold)"
+                                    fill="none"
+                                    stroke-width="2"/>
+                            </svg>
+
+                        </div>
+
+                        <p class="location">
+                            स्थान - यूपीएल विश्वविद्यालय ऑफ सस्टेनेबल टेक्नोलॉजी का छात्रावास भवन
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="footer reveal">
+
+                    <p>
+                        <h2>गणपति बाप्पा मोरया</h2> 🙏
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+
+
+    <!-- =====================================================
+         AUTO CLOSE / END INVITATION AFTER 2 MINUTES
+         ===================================================== -->
+
+    <script>
+        (function () {
+
+            const openInvitation = document.getElementById("open-invitation");
+            const coverPage = document.getElementById("cover-page");
+            const invitationPage = document.getElementById("invitation-page");
+
+            let invitationTimer = null;
+
+            if (openInvitation) {
+
+                openInvitation.addEventListener("click", function () {
+
+                    // Clear previous timer if any
+                    if (invitationTimer) {
+                        clearTimeout(invitationTimer);
+                    }
+
+                    // Start exactly 2-minute timer
+                    invitationTimer = setTimeout(function () {
+
+                        // End invitation and return to cover page
+                        if (invitationPage) {
+                            invitationPage.classList.remove("active");
+                        }
+
+                        if (coverPage) {
+                            coverPage.classList.add("active");
+                        }
+
+                        // Scroll back to top
+                        window.scrollTo({
+                            top: 0,
+                            behavior: "smooth"
+                        });
+
+                    }, 120000);
+
+                });
+
+            }
+
+        })();
+    </script>
+
+</body>
+</html>
